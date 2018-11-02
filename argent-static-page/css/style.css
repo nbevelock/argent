@@ -1,0 +1,95 @@
+/* Global Styles */
+html > * {font-family: 'Ubuntu', sans-serif;}
+h1 {color: #FF8795; margin-top: .4em;}
+
+
+/* Nav */
+nav div.navbar-nav a.nav-link {color: #FF8795;}
+nav div.navbar-nav a.nav-link:hover {color: #7F434A;}
+.navbar-toggler .fa-bars {color: #FF8795;}
+
+
+.jumbotron {
+    background: no-repeat center/cover url(../img/main4.jpeg);
+    height: 100vh;
+    color: #FF8795;
+    transform: skewY(-5deg);
+    margin-bottom: 0;
+}
+.jumbotron > * {transform: skewY(5deg);}
+
+div.jumbo-filter {
+    height: 100vh;
+    background-color: rgb(232,232,232,0.3);
+}
+
+
+.icon .fas, .icon .far, .icon .fab {font-size: 6em;}
+
+.redskew {
+    background-color: #FF8795;
+    height: 100vh;
+    transform: skewY(-5deg);
+}
+.redskew > * {transform: skewY(5deg);}
+
+.icon {height: 80%;}
+.icon h3 {margin: 20% auto;}
+
+
+#services {
+    height: 60vh;
+    color: #FF8795;
+    padding-top: 9%;
+}
+#services h4 {
+    font-size: 1.2em;
+}
+
+#contact {
+    height: 100vh;
+    color: white;
+}
+#contact .row {height: inherit;}
+#contact h2, #contact p, #contact h4 {margin-top: 10%; margin-bottom: 10%;}
+
+.redskew-2 {
+    background-color: #FF8795;
+    height: 100vh;
+    transform: skewY(-5deg);
+}
+.redskew-2 > * {transform: skewY(5deg);}
+
+
+/* Footer */
+footer {color: #FF8795; height: 70px; line-height: 70px; margin-top: 50px;}
+footer a {color: #FF8795;}
+footer a:hover {color: #7F434A; text-decoration: none;}
+footer .social {margin-left: 7.5%; margin-right: 7.5%;}
+
+
+/* Media Queries */
+@media screen and (max-width: 991px) {
+    .icon .fas, .icon .far, .icon .fab {font-size: 4em;}
+    #services h4 {font-size: 1em;}
+    #services {padding-top: 15%}
+}
+@media screen and (max-width: 767px) {
+    .icon .fas, .icon .far, .icon .fab {font-size: 3em;}
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-size: 1em;}
+    footer .h5 {font-size: .8em;}
+    h1.display-4 {font-size: 2em;}
+    #contact .display-4 {font-size: 1.5em; margin-top: 4em;}
+    .icon {height: 40%;}
+    .icon h3 {margin-top: 10%;}
+    nav div.navbar-nav a.nav-link {font-size: .8em;}
+    .jumbotron, .redskew {height: 50vh;}
+    .redskew-2, #contact {height: 70vh;}
+    .jumbotron {background-position: right 50% bottom 25%;}
+    #services {padding-top: 20%}
+    #services h4 {font-size: .8em;}
+    #services h2 {font-size: 1.5em;}
+}
+
+#typeform-workaround h2 {color: #fff; font-size: 2rem; width: inherit; height: auto;}
+#typeform-workaround a.btn {background-color:white; color:dimgrey; font-size: 2rem;}
